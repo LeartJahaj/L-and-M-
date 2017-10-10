@@ -45,16 +45,6 @@
                                     <action selector="buttonplay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5kL-hz-pKL"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30y-oZ-ijj">
-                                <rect key="frame" x="0.0" y="560" width="768" height="171"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="768" id="3f7-P8-xg0"/>
-                                    <constraint firstAttribute="height" constant="171" id="qnh-67-Mhw"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FL9-4x-Vu7">
                                 <rect key="frame" x="261" y="317" width="250" height="97"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.9107362492857467" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -86,9 +76,19 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="49"/>
                                 <state key="normal" title="Triangle"/>
                                 <connections>
-                                    <action selector="button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P6g-za-9hZ"/>
+                                    <action selector="button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qfm-rg-fyg"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30y-oZ-ijj">
+                                <rect key="frame" x="0.0" y="560" width="768" height="171"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="768" id="3f7-P8-xg0"/>
+                                    <constraint firstAttribute="height" constant="171" id="qnh-67-Mhw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.87165111699811826" green="1" blue="0.82517420625624827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>

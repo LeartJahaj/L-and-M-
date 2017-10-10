@@ -34,9 +34,10 @@ class ViewController: UIViewController {
         label1.text = "Incorrect! Try again"
     }
     @IBAction func button3(_ sender: Any) {
-        label1.text = "Incorrect! Try again"
-
+        label1.text = "Wrong, please try again!"
     }
+   
+   
     
     
 
