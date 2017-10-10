@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var questions = ["What is this shape?"]
+    var questions = ["Circle", "Square", "Triangle"]
     
     var answers = [["Cicle"]]
     
@@ -22,7 +22,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         label1.text = "What is this shape?"
     
+        question.text = "Circle"
     }
+    
+    
+    
+    @IBOutlet weak var question: UILabel!
     
     @IBOutlet weak var label1: UILabel!
 
