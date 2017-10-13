@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    //array of shapes
+    var shapes = ["circle", "square", "triangle"]
+    var randomNumber = 0
     
     var questions = ["Circle", "Square", "Triangle"]
     
@@ -30,13 +33,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var question: UILabel!
     
     @IBOutlet weak var label1: UILabel!
-
+    @IBOutlet weak var result: UILabel!
+    @IBOutlet weak var nextQuestion: UIButton!
     
-    @IBAction func buttonplay(_ sender: Any) {
-        label1.text = "Correct!"
+    
+    //all the actions
+    @IBAction func circle(_ sender: Any) {
+        checkAnswer(buttonPressed: 0)
     }
-    @IBAction func button2(_ sender: Any) {
-        label1.text = "Incorrect! Try again"
+    @IBAction func square(_ sender: Any) {
+        checkAnswer(buttonPressed: 1)
+    }
+    @IBAction func triangle(_ sender: Any) {
+        //TODO
     }
     @IBAction func button3(_ sender: Any) {
         label1.text = "Wrong, please try again!"
@@ -44,8 +53,12 @@ class ViewController: UIViewController {
    
    
     
+    func checkAnswer(buttonPressed: Int) {
+        print(buttonPressed)
+        //TODO #2 - use an if/then else statement to check if the random shape is equal to the button pressed. Add the last remaining function call to the triangle. Then show and hide the proper buttons.
+    }
     
-
+    
 }
 
       
